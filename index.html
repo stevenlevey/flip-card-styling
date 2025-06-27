@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nike Landing - Image Stack</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Preloader -->
+    <div class="preloader" id="preloader">
+      <div class="loading-logo">
+        <svg
+          width="64"
+          height="24"
+          viewBox="0 0 64 24"
+          fill="currentColor"
+          aria-label="Nike Logo Loading"
+          role="img"
+        >
+          <path
+            d="M64 12.388c0-1.996-.62-3.847-1.686-5.376L50.566.138A.562.562 0 0 0 50 0a.56.56 0 0 0-.566.138L37.686 7.012C36.62 8.541 36 10.392 36 12.388c0 1.997.62 3.848 1.686 5.377l11.748 6.874a.562.562 0 0 0 .566.137.56.56 0 0 0 .566-.137l11.748-6.874C63.38 16.236 64 14.385 64 12.388z"
+          />
+          <path
+            d="M24.566 0L13.251 6.708C11.95 8.388 11.239 10.35 11.239 12.388c0 2.037.711 3.999 2.012 5.68L24.566 24.777 36.881 18.068c1.301-1.681 2.012-3.643 2.012-5.68 0-2.038-.711-4-.012-5.68L24.566 0z"
+          />
+          <path
+            d="M12.434 0L1.119 6.708C-.182 8.388-.893 10.35-.893 12.388c0 2.037.711 3.999 2.012 5.68L12.434 24.777 24.749 18.068c1.301-1.681 2.012-3.643 2.012-5.68 0-2.038-.711-4-.012-5.68L12.434 0z"
+          />
+        </svg>
+      </div>
+    </div>
+
+    <main class="container" role="main">
+      <header class="header">
+        <div class="logo">
+          <svg
+            width="64"
+            height="24"
+            viewBox="0 0 64 24"
+            fill="currentColor"
+            aria-label="Nike Logo"
+            role="img"
+          >
+            <path
+              d="M64 12.388c0-1.996-.62-3.847-1.686-5.376L50.566.138A.562.562 0 0 0 50 0a.56.56 0 0 0-.566.138L37.686 7.012C36.62 8.541 36 10.392 36 12.388c0 1.997.62 3.848 1.686 5.377l11.748 6.874a.562.562 0 0 0 .566.137.56.56 0 0 0 .566-.137l11.748-6.874C63.38 16.236 64 14.385 64 12.388z"
+            />
+            <path
+              d="M24.566 0L13.251 6.708C11.95 8.388 11.239 10.35 11.239 12.388c0 2.037.711 3.999 2.012 5.68L24.566 24.777 36.881 18.068c1.301-1.681 2.012-3.643 2.012-5.68 0-2.038-.711-4-.012-5.68L24.566 0z"
+            />
+            <path
+              d="M12.434 0L1.119 6.708C-.182 8.388-.893 10.35-.893 12.388c0 2.037.711 3.999 2.012 5.68L12.434 24.777 24.749 18.068c1.301-1.681 2.012-3.643 2.012-5.68 0-2.038-.711-4-.012-5.68L12.434 0z"
+            />
+          </svg>
+        </div>
+
+        <h1 class="greeting">Discover Your Style</h1>
+        <p class="subtitle">
+          Navigate through our featured collection with your keyboard
+        </p>
+      </header>
+
+      <section class="image-stack-section" aria-label="Featured Products">
+        <div class="image-stack-container">
+          <div
+            class="image-stack"
+            id="imageStack"
+            role="region"
+            aria-label="Product showcase"
+            tabindex="0"
+          >
+            <div class="image-card active" data-index="0">
+              <div
+                class="image-placeholder"
+                style="
+                  background: linear-gradient(135deg, #ff6b35 0%, #f56500 100%);
+                "
+              >
+                <div class="image-content">
+                  <h3>Air Max Collection</h3>
+                  <p>Revolutionary comfort</p>
+                </div>
+              </div>
+            </div>
+            <div class="image-card" data-index="1">
+              <div
+                class="image-placeholder"
+                style="
+                  background: linear-gradient(135deg, #000000 0%, #404040 100%);
+                "
+              >
+                <div class="image-content">
+                  <h3>Jordan Retro</h3>
+                  <p>Iconic basketball legacy</p>
+                </div>
+              </div>
+            </div>
+            <div class="image-card" data-index="2">
+              <div
+                class="image-placeholder"
+                style="
+                  background: linear-gradient(135deg, #737373 0%, #262626 100%);
+                "
+              >
+                <div class="image-content">
+                  <h3>Running Elite</h3>
+                  <p>Performance redefined</p>
+                </div>
+              </div>
+            </div>
+            <div class="image-card" data-index="3">
+              <div
+                class="image-placeholder"
+                style="
+                  background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%);
+                "
+              >
+                <div class="image-content">
+                  <h3>Lifestyle Essentials</h3>
+                  <p>Everyday innovation</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="navigation-hint">
+            <div class="hint-content">
+              <div class="keyboard-icon">
+                <svg
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path d="M7 12h10m0 0l-4-4m4 4l-4 4" />
+                </svg>
+              </div>
+              <span>Use right arrow key to rotate</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="page-indicator">
+          <div class="indicator-dots" id="indicatorDots">
+            <span
+              class="dot active"
+              data-index="0"
+              aria-label="Image 1 of 4"
+            ></span>
+            <span class="dot" data-index="1" aria-label="Image 2 of 4"></span>
+            <span class="dot" data-index="2" aria-label="Image 3 of 4"></span>
+            <span class="dot" data-index="3" aria-label="Image 4 of 4"></span>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <p class="footer-text">Experience the future of footwear</p>
+      </footer>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
